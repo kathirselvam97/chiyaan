@@ -4,11 +4,11 @@ public class Index
 public static void main(String ar[])throws Exception
 {
 int n;
-Scanner sc=new Scanner(System.in);
-n=sc.nextInt();
+Scanner z=new Scanner(System.in);
+n=z.nextInt();
 int ar[]=new int[n];
 for(i=0;i<n;i++)
-ar[i]=sc.nextInt();
+ar[i]=z.nextInt();
 for(i=0;i<n;i++)
 {
 if(ar[i]==i)
